@@ -1,19 +1,19 @@
 :root {
-  --corail: #FF5A6E;
-  --corail-fonce: #E0435A;
+  --corail: #C21E56;
+  --corail-fonce: #A3184A;
   --encre: #2B2D33;
   --gris: #6B6F78;
   --fond: #FFFFFF;
-  --fond-doux: #FFF4F5;
+  --fond-doux: #FBF1EE;
   --trait: #ECE6E7;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --encre: #F2F2F4;
     --gris: #A8ACB5;
-    --fond: #17181C;
-    --fond-doux: #24202A;
-    --trait: #33343B;
+    --fond: #1E0816;
+    --fond-doux: #2C1222;
+    --trait: #3D2232;
   }
 }
 * { box-sizing: border-box; }
@@ -27,7 +27,7 @@ body {
   background: var(--fond);
 }
 a { color: var(--corail-fonce); }
-@media (prefers-color-scheme: dark) { a { color: var(--corail); } }
+@media (prefers-color-scheme: dark) { a { color: #FF7A92; } }
 
 .entete {
   display: flex; align-items: center; justify-content: space-between;
@@ -66,7 +66,7 @@ html[lang="fr"] [lang="mg"]:not(html), html[lang="mg"] [lang="fr"]:not(html) { d
 .bouton {
   display: inline-block; background: var(--corail); color: #fff !important; text-decoration: none;
   font-weight: 700; font-size: 19px; padding: 14px 28px; border-radius: 999px;
-  box-shadow: 0 6px 18px rgba(255, 90, 110, .35);
+  box-shadow: 0 6px 18px rgba(194, 30, 86, .35);
 }
 .bouton:active { background: var(--corail-fonce); }
 .petit { font-size: 14px; color: var(--gris); }
