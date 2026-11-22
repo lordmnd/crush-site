@@ -34,7 +34,7 @@ a { color: var(--corail-fonce); }
   max-width: 760px; margin: 0 auto; padding: 16px 20px;
 }
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--encre); font-weight: 700; font-size: 22px; }
-.logo svg { width: 34px; height: 34px; flex: none; }
+.logo svg { flex: none; }
 .langues { display: flex; border: 1px solid var(--trait); border-radius: 999px; overflow: hidden; }
 .langues button {
   border: 0; background: transparent; color: var(--gris);
@@ -61,7 +61,7 @@ html[lang="fr"] [lang="mg"]:not(html), html[lang="mg"] [lang="fr"]:not(html) { d
 
 /* Page d'accueil */
 .hero { text-align: center; padding: 24px 0 8px; }
-.hero svg.coeur { width: 140px; height: 140px; }
+.hero svg.coeur { width: 150px; height: 150px; }
 .hero p.accroche { font-size: 19px; color: var(--gris); margin: 4px auto 20px; max-width: 520px; }
 .bouton {
   display: inline-block; background: var(--corail); color: #fff !important; text-decoration: none;
