@@ -3,11 +3,11 @@
 importScripts("https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js");
 importScripts("https://www.gstatic.com/firebasejs/10.13.2/firebase-messaging-compat.js");
 
-const APP_ID_WEB = "";
+const APP_ID_WEB = "1:940144992336:web:0f5515b7221fff20b0f155";
 
 if (APP_ID_WEB) {
   firebase.initializeApp({
-    apiKey: "AIzaSyB2Y4uIemNgFGK13kkkqodXkWaPTgxTMaE",
+    apiKey: "AIzaSyCG0TXBjLAlThXu85neZTTiXb6lgrA73zs",
     authDomain: "crush-5f4bc.firebaseapp.com",
     projectId: "crush-5f4bc",
     storageBucket: "crush-5f4bc.firebasestorage.app",
