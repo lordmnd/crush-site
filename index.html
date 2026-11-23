@@ -70,6 +70,9 @@
   <a class="bouton" id="telecharger" href="telecharger/crush.apk">
     <span lang="fr">Télécharger pour Android</span><span lang="mg">Haka ho an'ny Android</span>
   </a>
+  <br><a class="bouton" id="iphone" href="iphone.html" style="margin-top:12px">
+    <span lang="fr">iPhone : utiliser Crush</span><span lang="mg">iPhone : hampiasa an'i Crush</span>
+  </a>
   <p class="petit"><a href="telecharger/crush-ancien-telephone.apk">
     <span lang="fr">Ancien téléphone ? Version légère (si « application non compatible »)</span>
     <span lang="mg">Finday taloha ? Dika maivana (raha « application non compatible »)</span></a></p>
@@ -139,9 +142,17 @@
 
 <footer><div class="interieur">
   <a href="index.html"><span lang="fr">Télécharger</span><span lang="mg">Haka</span></a>
+  <a href="iphone.html"><span lang="fr">iPhone</span><span lang="mg">iPhone</span></a>
   <a href="cgu.html"><span lang="fr">Conditions d'utilisation</span><span lang="mg">Fepetra fampiasana</span></a>
   <a href="confidentialite.html"><span lang="fr">Confidentialité</span><span lang="mg">Tsiambaratelo</span></a>
   <a href="securite.html"><span lang="fr">Conseils de sécurité</span><span lang="mg">Torohevitra fiarovana</span></a>
 </div></footer>
+<script>
+// Sur iPhone/iPad, le fichier Android ne sert à rien : on met le bouton iPhone en premier.
+if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) {
+  var a = document.getElementById("telecharger"), i = document.getElementById("iphone");
+  if (a && i) { a.parentNode.insertBefore(i, a); a.style.display = "none"; }
+}
+</script>
 </body>
 </html>
