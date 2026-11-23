@@ -58521,7 +58521,7 @@ $0(){return this.a.I1(this.b)},
 $S:0}
 A.Ur.prototype={
 f8(a,b){var s=null,r=A.cY(b),q=A.bqx(),p=q.ok,o=p.Q
-return new A.pU(q,A.eg(A.eX(B.nP,s,s,s,s,s),s,A.fC(!0,new A.ad(B.a4H,A.bw(A.c([B.ox,A.bdn("assets/logo/logo.png",150,150),B.bb,B.e0Y,B.Q,A.u(r.$1("bienvenue"),s,s,s,s,p.r,s,s,s),B.bW,A.u(r.$1("slogan"),s,s,s,s,s,B.X,s,s),B.ox,A.cj(A.ek(A.u(r.$1("creer_compte"),s,s,s,s,s,s,s,s),new A.akA(a),s),s,1/0),B.bb,A.cj(A.bdQ(A.u(r.$1("se_connecter"),s,s,s,s,s,s,s,s),new A.akB(a)),s,1/0),B.ad,A.u(r.$1("reserve_18"),s,s,s,s,o,B.X,s,s),B.bW,A.u(A.i(r.$1("version_test"))+" 41",s,s,s,s,o,s,s,s),B.ad],t.p),B.q,B.m,B.p,0,B.z),s),!1,B.K,!0),s,s),s)}}
+return new A.pU(q,A.eg(A.eX(B.nP,s,s,s,s,s),s,A.fC(!0,new A.ad(B.a4H,A.bw(A.c([B.ox,A.bdn("assets/logo/logo.png",150,150),B.bb,B.e0Y,B.Q,A.u(r.$1("bienvenue"),s,s,s,s,p.r,s,s,s),B.bW,A.u(r.$1("slogan"),s,s,s,s,s,B.X,s,s),B.ox,A.cj(A.ek(A.u(r.$1("creer_compte"),s,s,s,s,s,s,s,s),new A.akA(a),s),s,1/0),B.bb,A.cj(A.bdQ(A.u(r.$1("se_connecter"),s,s,s,s,s,s,s,s),new A.akB(a)),s,1/0),B.ad,A.u(r.$1("reserve_18"),s,s,s,s,o,B.X,s,s),B.bW,A.u(A.i(r.$1("version_test"))+" 42",s,s,s,s,o,s,s,s),B.ad],t.p),B.q,B.m,B.p,0,B.z),s),!1,B.K,!0),s,s),s)}}
 A.akA.prototype={
 $0(){return A.b4(this.a,!1).dE(A.dr(new A.akz(),!1,null,t.z))},
 $S:0}
@@ -61445,7 +61445,7 @@ q=q?B.e7m:B.dKW
 l=A.u(e.$1("supprimer_compte"),g,g,g,g,g,g,g,g)
 n.push(new A.MG(!0,m,g,g,g,s,B.o,g,!1,g,!0,g,new A.ah6(l,q,s,g,g),g))
 n.push(B.Q)
-n.push(A.u(A.i(e.$1("version_test"))+" 41",g,g,g,g,p.Q,g,g,g))
+n.push(A.u(A.i(e.$1("version_test"))+" 42",g,g,g,g,p.Q,g,g,g))
 r.push(new A.ad(B.cl,A.bw(n,B.aa,B.m,B.p,0,B.z),g))
 return A.eg(f,g,A.eo(r,g,g,!1,!1),g,g)}}
 A.b_0.prototype={
