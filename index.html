@@ -16,6 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script src="langue.js"></script>
+<script src="suivi.js" defer></script>
 </head>
 <body>
 <header class="entete">
@@ -156,5 +157,22 @@ if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "Mac
   if (a && i) { a.parentNode.insertBefore(i, a); a.style.display = "none"; }
 }
 </script>
+
+<div id="aide-install" class="aide-install" role="dialog" aria-modal="true">
+  <div class="aide-boite">
+    <h2><span lang="fr">Le téléchargement a commencé !</span><span lang="mg">Manomboka ny fakana !</span></h2>
+    <p class="petit"><span lang="fr">Encore 3 petites étapes (environ 1 minute) :</span><span lang="mg">Dingana 3 kely sisa (eo amin'ny 1 minitra) :</span></p>
+    <ol class="etapes">
+      <li><span lang="fr">Quand le téléchargement est fini, touchez <strong>crush.apk</strong> dans vos notifications (ou dans <strong>Téléchargements</strong>).</span>
+          <span lang="mg">Rehefa vita ny fakana, tsindrio ny <strong>crush.apk</strong> ao amin'ny fampilazana (na ao amin'ny <strong>Téléchargements</strong>).</span></li>
+      <li><span lang="fr">Si le téléphone affiche « <strong>source inconnue</strong> » : touchez <strong>Paramètres</strong>, activez <strong>Autoriser</strong>, puis revenez en arrière. C'est normal, Crush n'est pas encore sur Google Play.</span>
+          <span lang="mg">Raha miseho ny « <strong>source inconnue</strong> » : tsindrio ny <strong>Paramètres</strong>, alefaso ny <strong>Autoriser</strong>, dia miverena. Ara-dalàna izany, mbola tsy ao amin'ny Google Play i Crush.</span></li>
+      <li><span lang="fr">Touchez <strong>Installer</strong> puis <strong>Ouvrir</strong>. Inscrivez-vous : un code à 6 chiffres arrive par e-mail (regardez aussi dans les spams).</span>
+          <span lang="mg">Tsindrio ny <strong>Installer</strong> dia <strong>Ouvrir</strong>. Misorata anarana : hisy kaody 6 isa tonga amin'ny mailaka (jereo koa ny spams).</span></li>
+    </ol>
+    <p class="petit"><span lang="fr">Un souci ? Écrivez-nous sur la page Facebook <strong>Crush Madagascar</strong>.</span><span lang="mg">Misy olana ? Soraty eo amin'ny pejy Facebook <strong>Crush Madagascar</strong> izahay.</span></p>
+    <p style="text-align:center"><a href="#" id="aide-fermer" class="bouton"><span lang="fr">J'ai compris</span><span lang="mg">Azoko</span></a></p>
+  </div>
+</div>
 </body>
 </html>

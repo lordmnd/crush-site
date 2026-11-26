@@ -86,3 +86,9 @@ html[lang="fr"] [lang="mg"]:not(html), html[lang="mg"] [lang="fr"]:not(html) { d
 footer { border-top: 1px solid var(--trait); color: var(--gris); font-size: 14px; }
 footer .interieur { max-width: 760px; margin: 0 auto; padding: 18px 20px 32px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
 footer a { color: var(--gris); }
+
+.aide-install { display: none; position: fixed; inset: 0; background: rgba(15, 3, 10, .72); z-index: 50;
+  align-items: center; justify-content: center; padding: 16px; }
+.aide-boite { background: var(--fond, #fff); color: inherit; max-width: 520px; width: 100%; max-height: 90vh; overflow: auto;
+  border-radius: 20px; padding: 20px 22px; box-shadow: 0 20px 60px rgba(0,0,0,.4); }
+.aide-boite h2 { margin-top: 0; }
